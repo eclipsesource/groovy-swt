@@ -3,7 +3,7 @@
   <groupId>org.eclipse.core</groupId>
   <artifactId>databinding</artifactId>
   <versioning>
-    <release>1.7.100.v20181030-1443</release>
+    <release>1.10.0.v20200815-1752</release>
     <versions>
       <version>1.1.1.M20080827-0800b</version>
       <version>1.2.0.N20090322-2000</version>
@@ -15,7 +15,8 @@
       <version>1.5.0.v20150422-0725</version>
       <version>1.6.0.v20160412-0910</version>
       <version>1.7.100.v20181030-1443</version>
+      <version>1.10.0.v20200815-1752</version>
     </versions>
-    <lastUpdated>20190209075056</lastUpdated>
+    <lastUpdated>20201110083046</lastUpdated>
   </versioning>
 </metadata>
