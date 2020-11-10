@@ -24,7 +24,6 @@ import org.eclipse.jface.viewers.Viewer
 import org.eclipse.jface.viewers.ViewerSorter
 
 import org.eclipse.swt.SWT
-import org.eclipse.swt.custom.TableTree
 import org.eclipse.swt.events.SelectionAdapter
 import org.eclipse.swt.events.SelectionListener
 import org.eclipse.swt.widgets.Combo

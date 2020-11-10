@@ -48,8 +48,6 @@ import org.eclipse.swt.custom.ScrolledComposite
 import org.eclipse.swt.custom.StackLayout
 import org.eclipse.swt.custom.StyleRange
 import org.eclipse.swt.custom.StyledText
-import org.eclipse.swt.custom.TableTree
-import org.eclipse.swt.custom.TableTreeItem
 import org.eclipse.swt.custom.TreeEditor
 import org.eclipse.swt.layout.FillLayout
 import org.eclipse.swt.layout.FormLayout
@@ -301,8 +299,6 @@ public class SwtBuilder extends FactoryBuilderSupport {
 		registerFactory("tableItem", new TableItemFactory())
 		registerWidgetFactory("tree", Tree.class, SWT.MULTI)
 		registerWidgetFactory("treeItem", TreeItem.class)
-		registerWidgetFactory("tableTree", TableTree.class)
-		registerWidgetFactory("tableTreeItem", TableTreeItem.class)
 		registerWidgetFactory("treeEditor", TreeEditor.class)
 	}
 	

@@ -8,7 +8,7 @@ project.buildDir = 'target'
 defaultTasks 'build' // check
 
 sourceCompatibility = 1.8
-version = '0.96'
+version = '0.96-es-2009'
 
 repositories {
     mavenCentral()
@@ -21,18 +21,18 @@ dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.4.11'
     testCompile 'junit:junit:3.8.1'
     // Eclipse stuff
-        compile 'com.ibm:icu:63.1.0.v20181030-1705'
-        compile 'org.eclipse.core:commands:3.9.200.v20180827-1727'
-        compile 'org.eclipse.core:databinding:1.7.100.v20181030-1443'
-        compile 'org.eclipse.core.databinding:beans:1.4.300.v20181030-1443'
-        compile 'org.eclipse.core.databinding:observable:1.6.300.v20180827-2028'
-        compile 'org.eclipse.core.databinding:property:1.6.300.v20180827-2028'
-        compile 'org.eclipse.equinox:common:3.10.200.v20181021-1645'
-        compile 'org.eclipse:jface:3.15.0.v20181123-1505'
-        compile 'org.eclipse.jface:databinding:1.8.400.v20181030-1443'
-        compile 'org.eclipse:osgi:3.13.200.v20181130-2106'
-        compile 'org.eclipse.swt.win32.win32:x86:64_4.10'
-        compile 'org.eclipse.ui:forms:3.7.400.v20181123-1505'    
+        compile 'com.ibm:icu:67.1.0.v20200706-1749'
+        compile 'org.eclipse.core:commands:3.9.700.v20191217-1850'
+        compile 'org.eclipse.core:databinding:1.10.0.v20200815-1752'
+        compile 'org.eclipse.core.databinding:beans:1.7.0.v20200717-1533'
+        compile 'org.eclipse.core.databinding:observable:1.10.0.v20200730-0848'
+        compile 'org.eclipse.core.databinding:property:1.8.100.v20200619-0651'
+        compile 'org.eclipse.equinox:common:3.13.0.v20200828-1034'
+        compile 'org.eclipse:jface:3.21.0.v20200821-1458'
+        compile 'org.eclipse.jface:databinding:1.12.0.v20200717-1533'
+        compile 'org.eclipse:osgi:3.16.0.v20200828-0759'
+        compile 'org.eclipse.swt.win32.win32:x86_64:3.115.0.v20200831-1002'
+        compile 'org.eclipse.ui:forms:3.10.0.v20200727-0948'    
     // migLayout
     compile 'com.miglayout:miglayout-swt:4.2'
     // ASM for the opcodes used in the AST @Bindable

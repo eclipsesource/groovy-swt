@@ -64,9 +64,6 @@ class SwtBuilderTest1 {
 				cTabItem()
 			}
 			styledText()
-			tableTree() {
-				tableTreeItem()
-			}
 			fillLayout()
 			gridLayout()
 			rowLayout()
